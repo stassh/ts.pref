@@ -1,0 +1,6 @@
+**/node_modules/
+dist/
+coverage/
+junit.xml
+package-lock.json
+settings.json

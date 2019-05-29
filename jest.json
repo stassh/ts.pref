@@ -1,0 +1,14 @@
+{
+  "testURL": "http://localhost/",
+  "verbose": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": ["**/*.ts", "!**/node_modules/**", "!**/*.d.ts"],
+  "coverageReporters": ["cobertura", "lcov", "text"],
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "reporters": ["default", "jest-junit"],
+  "testRegex": ".+\\.test.ts$",
+  "testEnvironment": "node",
+  "moduleFileExtensions": ["ts", "js", "json", "node"]
+}
